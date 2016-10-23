@@ -68,6 +68,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="0.99926999159999996" blue="0.99407144869999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="0tb-Sf-60D" eventType="touchUpInside" id="aPi-hk-VXJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, world!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFc-DJ-leR">
                                 <constraints>

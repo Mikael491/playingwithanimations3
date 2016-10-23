@@ -10,6 +10,9 @@
 
 @interface SecondViewController ()
 
+- (IBAction)backButtonTapped:(UIButton *)sender;
+
+
 @end
 
 @implementation SecondViewController
@@ -34,4 +37,6 @@
 }
 */
 
+- (IBAction)backButtonTapped:(UIButton *)sender {
+}
 @end
