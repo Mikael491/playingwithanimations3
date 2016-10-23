@@ -14,6 +14,7 @@
 		FC85C2EA1DBD49F2006A5F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC85C2E91DBD49F2006A5F63 /* Assets.xcassets */; };
 		FC85C2ED1DBD49F2006A5F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC85C2EB1DBD49F2006A5F63 /* LaunchScreen.storyboard */; };
 		FC85C2F61DBD565C006A5F63 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85C2F51DBD565C006A5F63 /* SecondViewController.m */; };
+		FC85C2F91DBD576C006A5F63 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85C2F81DBD576C006A5F63 /* CustomSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FC85C2EE1DBD49F2006A5F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC85C2F41DBD565C006A5F63 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FC85C2F51DBD565C006A5F63 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FC85C2F71DBD576C006A5F63 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		FC85C2F81DBD576C006A5F63 /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				FC85C2DD1DBD49F2006A5F63 /* Supporting Files */,
 				FC85C2F41DBD565C006A5F63 /* SecondViewController.h */,
 				FC85C2F51DBD565C006A5F63 /* SecondViewController.m */,
+				FC85C2F71DBD576C006A5F63 /* CustomSegue.h */,
+				FC85C2F81DBD576C006A5F63 /* CustomSegue.m */,
 			);
 			path = CustomSegues;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				FC85C2E51DBD49F2006A5F63 /* ViewController.m in Sources */,
 				FC85C2E21DBD49F2006A5F63 /* AppDelegate.m in Sources */,
 				FC85C2DF1DBD49F2006A5F63 /* main.m in Sources */,
+				FC85C2F91DBD576C006A5F63 /* CustomSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
