@@ -16,15 +16,6 @@
 
 @implementation ViewController
 
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
-}
-
--(void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self setNeedsStatusBarAppearanceUpdate];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
