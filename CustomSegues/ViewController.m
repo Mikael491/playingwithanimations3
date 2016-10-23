@@ -30,6 +30,9 @@
 
 
 - (IBAction)nextButtonTapped:(UIButton *)sender {
+    
+    [self performSegueWithIdentifier:@"segue1" sender:self];
+    
 }
 
 @end
