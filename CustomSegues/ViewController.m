@@ -12,27 +12,26 @@
 
 - (IBAction)nextButtonTapped:(UIButton *)sender;
 
-
 @end
 
 @implementation ViewController
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 - (IBAction)nextButtonTapped:(UIButton *)sender {
-    
     [self performSegueWithIdentifier:@"segue1" sender:self];
-    
 }
 
 @end
