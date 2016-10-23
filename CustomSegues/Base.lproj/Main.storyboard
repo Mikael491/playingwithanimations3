@@ -39,7 +39,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="0tb-Sf-60D" kind="custom" identifier="segue1" id="751-lo-mLs"/>
+                        <segue destination="0tb-Sf-60D" kind="custom" identifier="segue1" customClass="CustomSegue" id="751-lo-mLs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
