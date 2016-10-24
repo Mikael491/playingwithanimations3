@@ -32,7 +32,10 @@
 }
 
 - (IBAction)backButtonTapped:(UIButton *)sender {
-
+    
+    //TODO: handle scaling down of vc to animate vc dismissal
+    
+    [self dismissViewControllerAnimated:false completion:nil];
 }
 
 @end
